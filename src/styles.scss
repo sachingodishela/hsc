@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0px; font-family: Roboto, sans-serif; }
+
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+  @font-face {
+   font-family: montserrat;
+   src: url(assets/fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+ }
+ @font-face {
+    font-family: Playfair_Display;
+    src: url(assets/fonts/Playfair_Display/PlayfairDisplay-Black.ttf) format("truetype")
+ }
