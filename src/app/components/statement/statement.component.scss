@@ -1,8 +1,9 @@
 .hsctitle {
     font-family: 'Montserrat';
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 10px;
     padding-block: center;
+    line-height: 90px;
 }
 .captiontext{
     font-family: Montserrat;
@@ -10,7 +11,8 @@
 }
 .example-card {
     width: 500px;
-    line-height: 40px;;
+    line-height: 40px;
+    margin: 15px;
   }
 .card-content{
     text-align: center;
