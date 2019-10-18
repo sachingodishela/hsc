@@ -3,7 +3,10 @@
 }
 .hsctitle {
     font-family: 'Montserrat';
-    letter-spacing: 9px;
-    font-size: 35px;
-    padding-top: 40px;
+    font-size: 25px;
+}
+.mytoolbar {
+    position: fixed;
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
 }

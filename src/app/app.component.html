@@ -1,18 +1,29 @@
-<mat-toolbar color="primary" role="header">
-  <span class="example-fill-remaining-space"></span>
-  <h1 class="hsctitle"><b>HYDRO SMART CITIES</b></h1>
-  <span class="example-fill-remaining-space"></span>
+<mat-toolbar color="primary" class="mytoolbar" [class.mat-elevation-z9]="true">
+  
+
+  <mat-toolbar-row >
+
+    <button mat-button routerLink="/"><b>Statement</b></button>
+    <button mat-button routerLink="/challenge">Challenges</button>
+    <button mat-button routerLink="/data">Data</button>
+    <button mat-button routerLink="/research">Research</button>
+    <button mat-button routerLink="/model">Model</button>
+    <button mat-button routerLink="/policy">Policy Making</button>
+    <span class="example-fill-remaining-space"></span>
+    
+      
+    <button mat-button (click)="isActive = !isActive">Toggle Elevation</button>
+    <button mat-button (click)="isActive = !isActive">Toggle Elevation</button>
+
+    <button mat-button routerLink="aboutus">About Us</button>
+
+  </mat-toolbar-row>
+
+</mat-toolbar>
+<mat-toolbar>
+  <mat-toolbar-row></mat-toolbar-row>
 </mat-toolbar>
 
-<mat-toolbar color="primary">
-  <button mat-button routerLink ="/">Statement</button>
-  <button mat-button routerLink="/challenge">Challenges</button>
-  <button mat-button routerLink="/data">Data</button>
-  <button mat-button routerLink="/research">Research</button>
-  <button mat-button routerLink="/model">Model</button>
-  <button mat-button routerLink="/policy">Policy Making</button>
-  <span class="example-fill-remaining-space"></span>
-  <button mat-button routerLink="aboutus">About Us</button>
-</mat-toolbar>
+
 
 <router-outlet></router-outlet>
