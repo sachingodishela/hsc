@@ -1,18 +1,68 @@
 <mat-toolbar color="primary">
     <mat-toolbar-row></mat-toolbar-row>
     <mat-toolbar-row></mat-toolbar-row>
-    <mat-toolbar-row></mat-toolbar-row>
     <mat-toolbar-row>
         <span class="example-fill-remaining-space"></span>
         <h1 class="hsctitle">HYDRO SMART CITIES</h1>
         <span class="example-fill-remaining-space"></span>
     </mat-toolbar-row>
     <mat-toolbar-row>
-            <span class="example-fill-remaining-space"></span>
-            <div class="captiontext">Some catchy caption goes here</div>
-            <span class="example-fill-remaining-space"></span>
+        <span class="example-fill-remaining-space"></span>
+        <div class="captiontext">Some catchy caption goes here</div>
+        <span class="example-fill-remaining-space"></span>
     </mat-toolbar-row>
     <mat-toolbar-row></mat-toolbar-row>
     <mat-toolbar-row></mat-toolbar-row>
-    <mat-toolbar-row></mat-toolbar-row>
 </mat-toolbar>
+<mat-toolbar class="motivationbox">
+    <span class="example-fill-remaining-space"></span>
+    <div class="motivationstitle">MOTIVATIONS</div>
+    <span class="example-fill-remaining-space"></span>
+</mat-toolbar>
+<mat-card>
+
+    <mat-grid-list cols="6" rowHeight="2:4">
+
+        <mat-grid-tile [colspan]=3>
+            <mat-card class="example-card">
+                <div class="card-content">Urbans are consumption hot spots. Urbans consume more resources than all in
+                    the form of water, energy, food, products.</div>.
+            </mat-card>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]=3>
+            <mat-card class="example-card">
+                <div class="card-content">Urbans consume more water virtually than direct consumption for producing food
+                    products in agriculture, for processing food and in goods, services.</div>
+            </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile ></mat-grid-tile>
+        <mat-grid-tile [colspan]=4>
+                <img  class="approachimage" src="../assets/approach.png" alt="approach image">
+                
+            
+        </mat-grid-tile>
+        <mat-grid-tile ></mat-grid-tile>
+        <mat-grid-tile [colspan]=2>
+            <mat-card class="example-card">
+                <div class="card-content">There is no scaling and benchmarking for this type of consumption for urbans
+                    in India.<br></div>
+            </mat-card>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]=2>
+            <mat-card class="example-card">
+                <div class="card-content">Most of the products, goods are<br> imported into the cities<br>from water scarce
+                    regions also<br>for their economic development.<br></div>
+            </mat-card>
+        </mat-grid-tile>
+
+        <mat-grid-tile [colspan]=2>
+            <mat-card class="example-card">
+                <div class="card-content">Due to production of goods in water scarce regions they effect the water
+                    ecology of that region..<br></div>
+            </mat-card>
+        </mat-grid-tile>
+
+    </mat-grid-list>
+</mat-card>

@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StatementComponent implements OnInit {
 
+  
+  
   constructor() { }
-
   ngOnInit() {
   }
-
+  
 }

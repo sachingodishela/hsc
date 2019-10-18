@@ -23,6 +23,8 @@ import { ChallengesComponent } from './components/challenges/challenges.componen
 import { PolicyComponent } from './components/policy/policy.component';
 import { DataComponent } from './components/data/data.component';
 import { ModelComponent } from './components/model/model.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 
 const appRoutes: Routes = [
   { path: '', component: StatementComponent },
@@ -61,7 +63,8 @@ const appRoutes: Routes = [
     MatSelectModule,
     MatRadioModule,
     ReactiveFormsModule,
-    MatDividerModule
+    MatDividerModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
