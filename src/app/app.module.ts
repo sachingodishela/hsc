@@ -22,11 +22,12 @@ import { ResearchComponent } from './components/research/research.component';
 import { ChallengesComponent } from './components/challenges/challenges.component';
 import { PolicyComponent } from './components/policy/policy.component';
 import { DataComponent } from './components/data/data.component';
+import { ModelComponent } from './components/model/model.component';
 
 const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'statement', component: StatementComponent },
+  { path: '', component: StatementComponent },
   { path: 'aboutus', component: AboutusComponent},
+  { path: 'model', component: ModelComponent },
   { path: 'data', component: DataComponent},
   { path: 'research', component: ResearchComponent},
   { path: 'challenge', component: ChallengesComponent},
@@ -43,6 +44,7 @@ const appRoutes: Routes = [
     ChallengesComponent,
     PolicyComponent,
     DataComponent,
+    ModelComponent,
   ],
   imports: [
     BrowserModule,
