@@ -1,6 +1,6 @@
 .hsctitle {
     font-family: 'Montserrat';
-    font-size: 40px;
+    font-size: 43px;
     letter-spacing: 10px;
     padding-block: center;
     line-height: 90px;
@@ -13,6 +13,25 @@
     width: 500px;
     line-height: 40px;
     margin: 15px;
+    background: skyblue;
+  }
+  .example-card2 {
+    width: 500px;
+    line-height: 40px;
+    margin: 15px;
+    background: chocolate;
+  }
+  .example-card3 {
+    width: 500px;
+    line-height: 40px;
+    margin: 15px;
+    background: skyblue;
+  }
+  .example-card4 {
+    width: 500px;
+    line-height: 40px;
+    margin: 15px;
+    background: lightgreen;
   }
 .card-content{
     text-align: center;
@@ -24,8 +43,13 @@
     color: #3F51B5;
     font-family: 'Comfortaa';
     letter-spacing: 5px;
-
 }
+.example-card5 {
+    width: 500px;
+    line-height: 40px;
+    margin: 15px;
+    background: chocolate;
+  }
 .approachclass{
     align-self: center;
     width: 2000px;
@@ -36,3 +60,32 @@
         height: auto;
       
 }
+ /* Container holding the image and the text */
+ .container {
+    position: relative;
+  }
+  .bgimageclass{
+      height: 600px;
+  }
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 400px;
+    //background: black;
+    left: 125px;
+    color: white;
+  }
+  .text-block2 {
+    position: absolute;
+    bottom: 200px;
+    //background: black;
+    left: 280px;
+    color: white;
+  }
+  .captiontitle{
+      letter-spacing: 5px;
+      font-size: 35px;
+  }
+  .gridlistclass {
+      background: "assets/city.jpg";
+  }
